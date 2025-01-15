@@ -58,7 +58,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # Import our separate file that contains the OpenAI API key
-from api_config import get_api_key
+from api_config_prod import get_api_key
 
 # Initialize the OpenAI client
 from openai import OpenAI
